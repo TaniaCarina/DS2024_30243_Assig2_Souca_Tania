@@ -1,0 +1,312 @@
+:local(.body) {
+    margin-left: 60px;
+}
+
+:local(.home) {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #ffe6ff;
+}
+
+:local(.pagetitle) {
+    display: inline-block;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    color: #cc6699;
+}
+
+:local(.generalcontainer) {
+    width: 1450px;
+    margin: auto;
+    background: linear-gradient(to right, #ffc0cb, #dda0dd);
+}
+
+:local(.divBtn) {
+    text-align: center;
+    margin: auto;
+}
+
+:local(.chartdisplay) {
+    margin-top: 15px;
+    display: inline-block;
+    width: 48%;
+    float: left;
+}
+
+:local(.background-image) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1920px;
+    background-image: url("../images/pink.png");
+}
+
+:local(.back) {
+    background-color: #ffe4e1;
+}
+
+:local(.titleSubtitleContainer) {
+    display: inline-flex;
+    border-bottom: 3px solid #ff69b4;
+}
+
+:local(.errorTitle) {
+    font-weight: 500;
+    font-size: 18px;
+    color: #cc0033;
+    letter-spacing: 1.2px;
+}
+
+:local(.errorText) {
+    font-weight: 400;
+    font-size: 16px;
+    color: #cc0033;
+    letter-spacing: 1.2px;
+}
+
+:local(.subtitle) {
+    font-weight: 600;
+    color: #ba55d3;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    width: 35%;
+}
+
+:local(.cardLabelContainer) {
+    display: table-cell;
+    background-color: #dda0dd;
+    text-align: center;
+    height: 3em;
+    border-radius: 5px;
+}
+
+:local(.cardLabel) {
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+    margin-top: 0.5em;
+}
+
+:local(.cardSubtitle) {
+    font-weight: 600;
+    color: #ba55d3;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    width: 90%;
+}
+
+:local(.charttitle) {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ba55d3;
+    letter-spacing: 1.2px;
+    position: relative;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+:local(.paragraph) {
+    padding: 20px 30px;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #ba55d3;
+    letter-spacing: 1.2px;
+    width: 620px;
+    background-color: #fff0f5;
+    border-radius: 8px;
+}
+
+:local(.title) {
+    padding: 20px 35px 5px;
+    display: inline-block;
+    font-weight: 600;
+    color: #ba55d3;
+    margin: 20px 0;
+    letter-spacing: 1.2px;
+    text-indent: 25px;
+    text-transform: uppercase;
+    line-height: 35px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(
+            to left,
+            #ffe6f7 1%,
+            #dda0dd 50%,
+            #ba55d3 100%
+    ) 0 0 100% 0/0 0 3px 0 stretch;
+}
+
+:local(.search) {
+    background: no-repeat scroll left / 20% auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    color: #fef8ed;
+    position: relative;
+    vertical-align: middle;
+    text-indent: 24px;
+    background-color: #ffccff;
+}
+
+:local(.next) {
+    background: no-repeat scroll left / 30% auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    color: #fef8ed;
+    position: relative;
+    vertical-align: middle;
+    text-indent: 24px;
+    background-color: #dda0dd;
+}
+
+:local(.leftUpCorner) {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+:local(.leftDownCorner) {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin-top: 0px;
+}
+
+:local(.leftCorner) {
+    position: relative;
+    margin: auto;
+    float: left;
+    width: 45%;
+    height: auto;
+    background-color: #ffe6f7;
+}
+
+:local(.rightCorner) {
+    position: relative;
+    float: right;
+    margin: auto;
+    width: 45%;
+    height: auto;
+    background-color: #ffe6f7;
+}
+
+:local(.columnDisplayDayAhead) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: #fff0f5;
+}
+
+:local(.monitoredDataTable) {
+    width: 95%;
+    height: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: #ffe6f7;
+}
+
+:local(.placeOrderButton) {
+    width: 15%;
+    height: 70px;
+    margin-bottom: 2%;
+    background: linear-gradient(to right, #ffc0cb, #dda0dd);
+    color: #ffffff;
+}
+
+:local(.tablesInRow) {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    background-color: #ffe6f7;
+}
+
+:local(.rowStyle) {
+    height: 800px;
+    background-color: #fff0f5;
+}
+
+:local(.marginForColumn) {
+    margin: 2%;
+}
+
+:local(.cardMargin) {
+    margin-top: 4%;
+}
+
+:local(.rightPositionedTable) {
+    margin-right: 40px;
+    width: 800px;
+    background-color: #ffe6f7;
+}
+
+:local(.tableColors) {
+    background: #f5b0e5;
+    border-color: #ff99cc;
+}
+
+
+:local(.chartTitle) {
+    text-align: center;
+    font-family: sans-serif;
+    color: #ba55d3;
+}
+
+:local(.chartLabel) {
+    font-family: sans-serif;
+    color: #ff69b4;
+}
+
+:local(.rightAllignelement) {
+    float: right;
+    margin-right: 5%;
+}
+
+:local(.leftAllignelement) {
+    float: left;
+    margin-left: 5%;
+}
+
+:local(.rowDisplay) {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 2%;
+    background: linear-gradient(to right, #ffc0cb, #dda0dd);
+}
+
+:local(.referencePricesGraphDisplay) {
+    position: relative;
+    width: 800px;
+    height: 95%;
+    margin-top: 0px;
+}
+
+:local(.middleAllign) {
+    horiz-align: center;
+}
+
+:local(.container) {
+    margin-left: 0;
+    margin-bottom: 35px;
+    margin-top: 1%;
+    background-color: #ffe6f7;
+    border-radius: 10px;
+}
+
+:local(.parentOf2Tables) {
+    display: flex;
+    background: linear-gradient(to right, #dda0dd, #ffc0cb);
+}
+
